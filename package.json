@@ -1,0 +1,18 @@
+{
+  "name": "unit-test-sample",
+  "version": "1.0.0",
+  "description": "Some Unit Testing Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progyan1997/Unit-Test-Sample.git"
+  },
+  "author": "Progyan Bhattacharya <progyanb@acm.org>",
+  "bugs": {
+    "url": "https://github.com/Progyan1997/Unit-Test-Sample/issues"
+  },
+  "homepage": "https://github.com/Progyan1997/Unit-Test-Sample#readme"
+}
