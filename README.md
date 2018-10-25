@@ -11,3 +11,6 @@ $ npm i
 ```
 $ npm test
 ```
+
+### Documentation
+Jest - [Official Jest Documentation](https://jestjs.io/)
