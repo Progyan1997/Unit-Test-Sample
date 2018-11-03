@@ -1,4 +1,4 @@
 const Car = require('./Car');
 
 // TODO: If a Car Object is Instantiated properly with Optional Parameters
-// All Methods work as expected
+// Reference: https://jestjs.io/docs/en/es6-class-mocks
