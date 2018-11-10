@@ -27,7 +27,7 @@ class Shape {
     }
 }
 
-export class Rectangle extends Shape {
+class Rectangle extends Shape {
     /**
      * @constructor
      * @extends Shape
@@ -37,6 +37,7 @@ export class Rectangle extends Shape {
      * @returns {Rectangle} A instance of Rectangle Object
      */
     constructor({ length, breadth } = {}) {
+        super();
         this.length = length;
         this.breadth = breadth;
     }
@@ -50,7 +51,7 @@ export class Rectangle extends Shape {
     }
 }
 
-export class Square extends Rectangle {
+class Square extends Rectangle {
     /**
      * @constructor
      * @extends Rectangle
@@ -62,3 +63,5 @@ export class Square extends Rectangle {
         super(length, length);
     }
 }
+
+module.exports = { Rectangle, Square };
