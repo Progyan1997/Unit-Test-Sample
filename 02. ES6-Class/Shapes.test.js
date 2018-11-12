@@ -12,7 +12,7 @@ test('A.getArea() should return 0',() => {
     expect(A.getArea()).toBe(0);
 });
 
-const B = new Rectangle(3,6);
+const B = new Rectangle({ length: 3, breadth: 6 });
 
 test('B.getPerimeter(3,6) should return 18',() => {
     expect(B.getPerimeter()).toBe(18);

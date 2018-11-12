@@ -60,7 +60,7 @@ class Square extends Rectangle {
      * @returns {Square} A instance of Rectangle Object
      */
     constructor({ length } = {}) {
-        super(length, length);
+        super({ length, breadth: length });
     }
 }
 
