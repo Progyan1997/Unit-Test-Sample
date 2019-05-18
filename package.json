@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/Progyan1997/Unit-Test-Sample#readme",
   "dependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.8.0"
   }
 }
